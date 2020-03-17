@@ -3032,6 +3032,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			.features {
+				display: none;
+			}
+
 			.features article {
 				margin: 1em 2em 1em 0;
 				width: calc(50% - 1em);
@@ -3040,6 +3044,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.features {
+				display: none;
+			}
 
 			.features article {
 				padding: 1.5em 1.5em 0.1em 1.5em ;
@@ -3059,7 +3067,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features {
-				display: block;
+				display: none;
 			}
 
 				.features article {
